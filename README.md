@@ -16,8 +16,7 @@ Automatic application of detection and tracking of basketball players during a g
 
 :four: Player tracking and applications: homography 2D and voronoi diagram
 
-<img src="img/process.PNG" width="800" height="400">
+<img src="img/process.PNG" width="700" height="300">
 
 ## Demo
-
-![](img/demo.gif)
+<img src="img/demo.gif" width="700" height="300">
