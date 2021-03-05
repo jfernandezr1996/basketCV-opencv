@@ -1,0 +1,7 @@
+{
+	"lower_team": [0, 0, 212],
+	"upper_team": [131, 255, 255],
+	"color_team": [255, 255, 255],
+	"color_team_polygon": [255, 204, 229],
+	"match": "Real Madrid - FC Barcelona"
+}

@@ -1,0 +1,7 @@
+{
+	"lower_team": [25, 100, 20],
+	"upper_team": [35, 255, 255],
+	"color_team": [0, 255, 255],
+	"color_team_polygon": [204, 255, 255],
+	"match": "Alba Berlin - FC Barcelona"
+}
