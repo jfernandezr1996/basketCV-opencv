@@ -201,14 +201,14 @@ def player_tracking(input_video, input_pitch, color_team,
                 color_barcelona = color_barcelona, lower_vs = lower_team, 
                 upper_vs = upper_team)
             
-            players_homography, all_coordinates, voronoi_output = players_tracking(
+            players_homography, all_coordinates, v_output = players_tracking(
                 players_detection, input_pitch, color_team, color_barcelona, 
                 team_color_polygon=color_team_polygon, 
                 barcelona_color_polygon=color_barcelona_polygon)
             coordinates_circles.extend(all_coordinates)
             
             name_voronoi = "voronoi/framevoronoi%d.jpg" % count
-            cv2.imwrite(name_voronoi, voronoi_output)
+            cv2.imwrite(name_voronoi, v_output)
             
             name_homography = "homography/framehomography%d.jpg" % count
             cv2.imwrite(name_homography, players_homography)
