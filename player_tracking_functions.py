@@ -20,6 +20,7 @@ def draw_voronoi(img, subdiv, color_points, color_polygon):
         ifacets = np.array([ifacet])
         cv2.polylines(img, ifacets, True, (0,0,0), 1, cv2.LINE_AA, 0)
         cv2.circle(img, (centers[i][0], centers[i][1]), 5, color_points[i], -1)
+    return img
 
 
 def players_tracking(
@@ -146,6 +147,7 @@ def players_tracking(
     img_voronoi = np.zeros(voronoi_input.shape, dtype = voronoi_input.dtype)
 
     # Draw Voronoi diagram
-    draw_voronoi(img_voronoi, subdiv, color_points, color_polygon)
+    voronoi_display = draw_voronoi(img_voronoi, subdiv, color_points, color_polygon)
+    final_img = cv2.addWeighted(voronoi_display, 0.7, voronoi_input, 0.3, 0, voronoi_input)
 
-    return homography_pos, list_coordinates, img_voronoi
+    return homography_pos, list_coordinates, final_img
