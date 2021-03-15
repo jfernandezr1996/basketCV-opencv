@@ -17,4 +17,4 @@ Automatic application of detection and tracking of basketball players during a g
 ## Demo
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/jfernandezr1996/basketcv-opencv/main/app.py)
 
-<img src="img/demo.gif" width="700" height="300">
+<img src="img/demo_2.gif" width="700" height="300">
