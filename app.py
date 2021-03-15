@@ -75,7 +75,7 @@ def main():
     
     if menu == 'Home':
         
-        st.title('Welcome to basketCV app :wave:')
+        st.title('Welcome to basketCV app :wave: !!')
         
         st.markdown("""___""")
                 
