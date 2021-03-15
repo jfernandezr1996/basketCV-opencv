@@ -223,3 +223,10 @@ def main():
                  
 if __name__ == "__main__":
     main()
+
+st.markdown("""___""")  
+st.markdown(body="""
+            > **Contact** \
+            <a href="https://www.linkedin.com/in/javier-fernandez-rodriguez/"> \
+            Linkedin</a> \
+            <a href="https://twitter.com/javferrod96"> Twitter</a>""", unsafe_allow_html=True)
